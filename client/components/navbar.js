@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const Navbar = ({handleClick}) => (
   <div>
-    <h1>PLANET SCOTTISH FOLD</h1>
+    <h1>APP NAME</h1>
     <nav>
         <div>
           {/* The navbar will show these links after you log in */}
