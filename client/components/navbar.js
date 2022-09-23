@@ -8,8 +8,8 @@ const Navbar = ({handleClick}) => (
         <div>
           {/* The navbar will show these links after you log in */}
           <Link to="/home">Home</Link>
-          {/* <Link to="/aboutUs">About Us</Link>
-          <Link to="/availible">Available</Link> */}
+          <Link to="/aboutUs">About Us</Link>
+          <Link to="/availible">Available</Link>
           <a href="#" onClick={handleClick}>
             Logout
           </a>
