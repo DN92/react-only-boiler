@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "npm run build -- --watch --mode=development",
-    "seed": "node script/seed.js",
+    "seed": "node seedAndScripts/seed.js",
     "start": "node server",
     "start:dev": "npm run build:dev & npm run start-server",
     "start:fullReload": "npm run seed & npm run start:dev",

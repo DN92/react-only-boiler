@@ -1,9 +1,14 @@
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+
 const App = () => {
 
   return (
-    <div className="App">
-      APP COMPONENT PLACEHOLDER
-    </div>
+    <BrowserRouter>
+      <div id="App">
+        APP COMPONENT PLACEHOLDER
+      </div>
+    </BrowserRouter>
   )
 }
 

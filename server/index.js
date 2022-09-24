@@ -4,6 +4,9 @@ const path = require('path')
 const morgan = require('morgan')
 const compression = require('compression')
 
+process.env.PORT = process.env.PORT || 8083
+
+
 const app = express()
 
 // logging middleware
